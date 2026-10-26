@@ -156,6 +156,7 @@
                         android:layout_height="24dp"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/clock_outline"
+                        app:tint="@color/icon_tint"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/played_tracks_text" />
@@ -202,6 +203,7 @@
                         android:layout_height="24dp"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/music_note_24"
+                        app:tint="@color/icon_tint"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/played_minutes_label" />
@@ -254,6 +256,7 @@
                         android:layout_height="24dp"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/outline_artist_24"
+                        app:tint="@color/icon_tint"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/played_artists_label" />
@@ -299,6 +302,7 @@
                         android:layout_height="24dp"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/outline_album_24"
+                        app:tint="@color/icon_tint"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/played_albums_label"
